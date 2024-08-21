@@ -4,7 +4,7 @@ num = 8
 guess = 0
 guess_limit=5
 guess_number = 0
-guess = int(input(f'Enter the Guess: '))
+guess = int(input(f'Guess a number 1-10: '))
 guess_number +=1
 while guess_number < guess_limit:
     
